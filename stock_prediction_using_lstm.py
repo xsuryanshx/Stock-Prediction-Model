@@ -16,7 +16,7 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
 import tensorflow as tf
-from keras.layers import Dense, LSTM, Dropout
+from keras.layers import Dense, LSTM, Dropout, Bidirectional
 from matplotlib import pyplot as plt
 plt.style.use('fivethirtyeight')
 
