@@ -21,7 +21,7 @@ from matplotlib import pyplot as plt
 plt.style.use('fivethirtyeight')
 
 #Get the stock quote 
-df = web.DataReader('aapl', data_source='yahoo', start='2000-01-01', end='2020-09-19') 
+df = web.DataReader('MSFT', data_source='yahoo', start='2000-01-01', end='2020-09-19') 
 print(df)
 
 #Visualize the closing price history
